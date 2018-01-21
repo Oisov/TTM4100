@@ -1,0 +1,36 @@
+
+Questions
+
+The goal of this first lab was primarily to introduce you to Wireshark. The
+following questions will demonstrate that you’ve been able to get Wireshark up
+and running, and have explored some of its capabilities. Answer the following
+questions, based on your Wireshark experimentation:
+
+1. List 3 different protocols that appear in the protocol column in the
+   unfiltered packet-listing window in step 7 above.
+
+MONS, TCP, DNS, HTTP
+
+2. How long did it take from when the HTTP GET message was sent until the HTTP
+   OK reply was received? (By default, the value of the Time column in the packet
+   listing window is the amount of time, in seconds, since Wireshark tracing began.
+   To display the Time field in time-of-day format, select the Wireshark View pull
+   down menu, then select Time Display Format, then select Time-of-day.)
+
+       Sent: 20:09 : 52 : 544465019
+Recieved OK: 20:09 : 52 : 686407227
+
+Time Difference: 0.141942208 seconds
+
+3. What is the Internet address of the gaia.cs.umass.edu (also known as
+   www.net.cs.umass.edu)? What is the Internet address of your computer?
+
+gaia.cs.umass.edu: 128.119.245.12
+         computer:  10.0.0.27
+
+4. Take screenshots of the two HTTP messages (GET and OK) referred to in
+   question 2 above. The screenshots should include the packet-header window for
+   these messages and the packet list window (see the beginning of this tutorial
+   for the descriptions of the different windows).
+
+See the included png files in the same folder as this file
